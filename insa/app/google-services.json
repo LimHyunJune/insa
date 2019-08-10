@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "878088050121",
+    "firebase_url": "https://insa-d8dda.firebaseio.com",
+    "project_id": "insa-d8dda",
+    "storage_bucket": "insa-d8dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:878088050121:android:d234adc0128c9766",
+        "android_client_info": {
+          "package_name": "com.example.insa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "878088050121-h6t93eferpus790gp4h9opdprk7lg0sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJhIKTRRXlVvTipJ2JHll5tTw43YHZ0_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "878088050121-h6t93eferpus790gp4h9opdprk7lg0sp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "878088050121-03uo2f6b2tffend9uplul4bufl8s3f78.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.insa",
+                "app_store_id": "123"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

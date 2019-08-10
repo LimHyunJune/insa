@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_text_dark_gray"
+    tools:context=".ItemActivity">
+
+
+    <FrameLayout
+        android:layout_marginLeft="300dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:id="@+id/itemFL">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/_version_check_rect"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "친구 맺기"
+            android:fontFamily="@font/bmjua"
+            android:textColor="@color/colorPrimary"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+
+
+    </FrameLayout>
+
+
+        <ImageView
+            android:id="@+id/itemIV"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    <TextView
+        android:text="인생이란 그런거라고 누가 말했다 그치만 그는 나에게 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemTV"
+        android:textSize="20sp"
+        android:textColor="@color/color_white"
+        android:textStyle="bold"
+        android:fontFamily="@font/bmjua"/>
+
+
+
+
+</LinearLayout>

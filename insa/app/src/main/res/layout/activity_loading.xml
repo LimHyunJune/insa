@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorAccent"
+    tools:context=".LoadingActivity">
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:fontFamily="@font/bmjua"
+            android:text="세계에서 인싸가 되어보자"
+            android:textColor="@color/color_white"
+            android:textSize="40dp" />
+
+    <fragment android:layout_width="1dp"
+        android:layout_height="1dp"
+        android:id="@+id/map"
+        android:name="com.naver.maps.map.MapFragment" />
+
+
+
+</LinearLayout>

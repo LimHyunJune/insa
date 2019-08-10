@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">insa</string>
+    <string name="naver_api_client_key">ixk7pox952</string>
+    <string name="naver_api_secret_key">YgjHxFSfSnKxnOvfMPNBcfANQ0GEvQ7754z85tE7</string>
+    <string name="email_match_checker">^[_a-z0-9-]+(.[_a-z0-9-]+)*@(?:\\w+\\.)+\\w+$</string>
+</resources>

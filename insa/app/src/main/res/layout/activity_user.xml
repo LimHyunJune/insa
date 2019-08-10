@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/_ripple_white_view"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/ll_account"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="계정정보"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/bmjua"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#474747"
+            android:text="kiwanpark@s2d5.com"
+            android:fontFamily="@font/bmjua"
+            android:id="@+id/tv_account"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/color_gray"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/ll_fvpcroom"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="내 친구 목록 보기"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/bmjua"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/_ripple_white_view"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/ll_pwchange"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="비밀번호 변경"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/bmjua"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#474747"
+            android:text="사용중인 비밀번호를 변경합니다"
+            android:fontFamily="@font/bmjua"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/_ripple_white_view"
+        android:orientation="vertical"
+        android:paddingLeft="13dp"
+        android:layout_marginTop="3dp"
+        android:id="@+id/ll_logout"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="로그아웃"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/bmjua"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
